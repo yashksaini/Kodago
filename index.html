@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Kodago CSS -->
+    <link rel="stylesheet" type="text/css" href="Kodago.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Lines Icon CSS -->
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <!-- Animate.style Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
+    <!-- Owl Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <!-- Owl CSS Ends -->
+    <title>Kodago</title>
+</head>
+
+<body>
+    <header>
+        <div class="fixed-top">
+            <!-- Responsive Content -->
+            <div class="bg-white animate__animated animate__slideInRight" id="navbar">
+                <div class="nav_div">
+                    <a href="#home" onclick="menu(2)">Home</a><br><br>
+                    <a href="#about" onclick="menu(2)">About</a><br><br>
+                    <a href="#work" onclick="menu(2)">How It Works</a><br><br>
+                    <a href="#Testimonial" onclick="menu(2)">Testimonial</a><br><br>
+                    <a href="#Services" onclick="menu(2)">Services</a><br><br>
+                    <a href="#Contact" onclick="menu(2)">Contact</a><br><br>
+                </div>
+            </div>
+            <!-- Responsive Content End -->
+            <div class="navbar container-fluid" id="navbar1">
+                <div class="nav_logo d-flex align-items-center">
+                    <img src="Images/Logo.png">
+                </div>
+                <div class="d-flex align-items-center nav_content">
+                    <nav>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#work">How It Works</a>
+                        <a href="#Testimonial">Testimonial</a>
+                        <a href="#Services">Services</a>
+                        <a href="#Contact">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Responsive Button -->
+        <div class="menu_button">
+            <button class="btn menu_bar">
+                <!-- Bars Icon -->
+                <i class="lni lni-menu" id="menu_btn" onclick="menu('1')"></i>
+                <!-- Cross Icon -->
+                <i class="lni lni-close" style="display: none;" id="menu_cross" onclick="menu('2');"></i>
+            </button>
+        </div>
+        <!-- Responsive Button Ends -->
+    </header>
+    <section id="home">
+        <div class="container-fluid" style="padding-top: 70px;">
+            <div class="row">
+                <div class="col-lg-7 home_txt d-flex align-items-center justify-content-center">
+                    <div>
+                        <h1> A Futuristic<br> Data Collection Tool</h1>
+                        <p> Explore a Power-driven yet simplistic data collection tool that will seamlessly help you manage, access, optimize, and access your workflow data.</p>
+                        <div class="d-flex justify-content-left align-items-center mt-3">
+                            <button class="btn home_btn1">TRY FOR FREE</button>
+                            <a href="#Contact" class="btn home_btn">CONTACT US</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 home_img ">
+                    <img src="Images/1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container-fluid bg-light" style="padding-top: 70px;">
+            <div class="row">
+                <div class="col-lg-7 home_txt d-flex align-items-center justify-content-center">
+                    <div>
+                        <h2>About Kodago </h2>
+                        <p>"Data has become omnipresent - No industry is untouched. Businesses constantly need data to keep an active workflow. Kodago is a modern data collection tool built for businesses of all sizes to easily and intuitively collect and manage their data workflows without any chaos and hampering productivity." </p>
+                        <div class="d-flex justify-content-left align-items-center mt-3">
+                            <button class="btn about_btn1">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 home_img ">
+                    <iframe src="https://www.youtube.com/embed/1_gox83OFvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <div class="container" style="padding-top: 70px;">
+            <h2 class="Servies_h1">How It Works</h2>
+            <p style="text-align: center;">Explore the complete solutions around data collection in a more simpler, easier, and seamless way than before. </p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6  work_col">
+                    <div class="work_card wow zoomIn" data-wow-delay="0.2s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-cog"></i>
+                            </div>
+                        </div>
+                        <h3>Easily Build WorkFlow Groups </h3>
+                        <p>Kodago enables you to build workflow groups based on your projects, requirements, segmentation, and more verticals. These groups provide teams members to easily communicate internally, share the data reports, add the audience data, pin map locations, and build a seamless database in a structured manner without any lag or complexity. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6  work_col">
+                    <div class="work_card wow zoomIn" data-wow-delay="0.4s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-stats-up"></i>
+                            </div>
+                        </div>
+                        <h3>Create & Manage File Racks </h3>
+                        <p>File racks allow teams to share data in a structured way, customise the racks, and manage different forms of data. Kodago automatically builds a database, backened, and script to present the data exclusively. Diversify the racks as per you projects, workflows, and requirements to seamlessly manage the collected data. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6  work_col">
+                    <div class="work_card wow zoomIn" data-wow-delay="0.6s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-users"></i>
+                            </div>
+                        </div>
+                        <h3>Enable Team Communication </h3>
+                        <p>Managing tons of data from different sources can be chaotic. The group chat feature by Kodago enables the team members & admin to have an effective communication channel internally with collection groups. Easy communication enables flawless workflow and data collection more effectively and efficiently</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6  work_col">
+                    <div class="work_card wow zoomIn" data-wow-delay="0.8s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-layers"></i>
+                            </div>
+                        </div>
+                        <h3>Rich Data Insights With Analytics</h3>
+                        <p>Data analysis is the core of data collection. Now create analytics reports with data-rich insights to get a comprehensive understanding. Check the workflow progress in real-time and track the performance of different work groups. Also, visualise your data reports, diversify data into different tables, access data anytime, andor even export it.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="Testimonial" style="padding-top: 70px;">
+        <div class="container-fluid test_slider">
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="test_card">
+                            <p> &ldquo; We choose Kodago for its performance and cost efficiency compared to the solutions it provides. The data collection process is simply quick and seamless. Beyond that, we are fully satisfied with the customer service that we have received throughout our initial days using the platform. &rdquo;</p>
+                            <h4><i>Data Architect Manager</i></h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="test_card">
+                            <p>&ldquo; The tool is amazing. We have been using the tool for quite some time and we have collected tons of data seamlessly. The internal group chat feature works really well for us as we have quite a diverse data collection network and communication is the key to successful data collection for us. &rdquo;</p>
+                            <h4><i>Information Acquisition Lead</i></h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="test_card">
+                            <p>&ldquo; The data reports are expansive and insightful. The diversity of file racks for different types of data collection makes it a perfect choice for us to gather visual and textual data. Reports have helped us make many resourceful projections and bring in beneficial returns. &rdquo;</p>
+                            <h4><i>Chief Technical Manager</i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;background-color: #ECECEC">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 test_txt">
+                        <h2>Get Started With Kodago Now</h2>
+                        <p>Take your free trial to experience the best data collection tool. A powerful, unique, and simple tool built for the data of future. </p>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                            <button class="btn test_btn1">REGISTER NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Services">
+        <div class="container" style="padding-top: 70px;">
+            <h2 class="Servies_h1">Why Choose Kodago For Data Collection?</h2>
+            <p style="text-align: center;">Glimpse of a few reasons from many that showcase how Kodago data collection tool can benefit your business </p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6  Services_col">
+                    <div class="Services_card wow zoomIn" data-wow-delay="0.2s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-users"></i>
+                            </div>
+                        </div>
+                        <h3>Know The Audience & Their Interests</h3>
+                        <p>Data collection helps you gain insights into your target audience. You can explore audience like, dislikes, behaviour, demographics, and much more. You can create and deliver more beneficial solutions when you know your audience perfectly.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  Services_col">
+                    <div class="Services_card wow zoomIn" data-wow-delay="0.4s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-stats-up"></i>
+                            </div>
+                        </div>
+                        <h3>Strategic Decisions & Business Actions</h3>
+                        <p>Having knowledge about the people that your business caters to, you can make more strategic and result-driven declines based on the collected data. Strategic decisions and business campaigns will help in garnering expected outcomes and enable growth.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  Services_col">
+                    <div class="Services_card wow zoomIn" data-wow-delay="0.6s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-certificate"></i>
+                            </div>
+                        </div>
+                        <h3>Innovation & Creativity Come Alive</h3>
+                        <p>Research is the primary step towards innovation and unique ideas. When you will have access to detailed audience insights, you will be able to make implications and identify gaps that will help you introduce new ideas, innovation, and creativity in workflow</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  Services_col">
+                    <div class="Services_card wow zoomIn" data-wow-delay="0.8s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-layers"></i>
+                            </div>
+                        </div>
+                        <h3>Deliver Personalized Audience Experiences</h3>
+                        <p>Personalisation has become a necessity in the modern-age for all businesses. Every individual expects personalized attention and experiences. The data collection tool will bridge that gap by gathering knowledge about individuals and simultaneously deliver personalized experiences.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  Services_col">
+                    <div class="Services_card wow zoomIn" data-wow-delay="1.0s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-mobile"></i>
+                            </div>
+                        </div>
+                        <h3>Information Authenticity & Efficiency</h3>
+                        <p>Authenticity is the core of any crucial information. Data without authenticity can lead to adverse outcomes for the business. The accurate and authentic data collection and management will ensure profitable outcomes with trustworthy data sources.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  Services_col">
+                    <div class="Services_card wow zoomIn" data-wow-delay="1.2s">
+                        <div class="d-flex justify-content-center">
+                            <div class="Card_icon">
+                                <i class="lni lni-rocket"></i>
+                            </div>
+                        </div>
+                        <h3> Maximum ROI & Cost-Efficiency</h3>
+                        <p>Data is a necessity and collection is a rigorous task that can require massive investments into time, resources, and budget. Kodago data collection tool provides the perfect benefit of acquiring data at minimum investments leading to maximum efficiency.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="Contact" style="padding-top: 70px;">
+        <div class="container-fluid bg-light">
+            <div class="container">
+                <h3 class="Contact_h1">Contact Us</h3>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control form-input c_form" placeholder="Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="emial" name="Email" class="form-control form-input c_form" placeholder="Email" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" name="Subject" class="form-control form-input c_form" placeholder="Subject" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control c_form c_textarea" placeholder="Your Message" required></textarea>
+                                </div>
+                            </div>
+                            <button class="btn Contact_btn1" type="submit">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-5">
+                        <object style="border:0; height: 320px; width: 100%;margin-top: 20px;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584"></object>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/479988039b.js"></script>
+    <script>
+    window.onscroll = function() { myFunction() };
+
+    var navbar = document.getElementById("navbar1");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky-top")
+        } else {
+            navbar.classList.remove("sticky-top");
+        }
+    }
+    </script>
+    <script src="wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        nav: false,
+        autoplay: true,
+        dots: true,
+        stopOnHover: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+    </script>
+    <script type="text/javascript">
+    function menu(value) {
+        if (value == 1) {
+            document.getElementById("menu_btn").style.display = "none";
+            document.getElementById("menu_cross").style.display = "inline";
+            document.getElementById("navbar").style.display = "block";
+        } else if (value == 2) {
+            document.getElementById("navbar").style.display = "none";
+            document.getElementById("menu_btn").style.display = "inline";
+            document.getElementById("menu_cross").style.display = "none";
+        }
+    }
+    </script>
+</body>
+
+</html>
